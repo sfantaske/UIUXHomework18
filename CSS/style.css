@@ -49,3 +49,12 @@ footer li {
   display: inline-block;
   padding: 0px 7px;
 }
+
+a {
+    color: white;
+
+}
+
+#TagLine {
+    text-align: center;
+}
