@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color: #1e1e1e;
   padding: 15px;
 }
 header ul {
@@ -37,7 +37,7 @@ button {
   border-radius: 4px;
 }
 footer {
-  background-color: #373738;
+  background-color: #1e1e1e;
   padding: 5px;
   color: white;
 }
@@ -52,9 +52,28 @@ footer li {
 
 a {
     color: white;
+}
 
+.FlexContainer {
+    display: flex;
+
+}
+
+.FlexContainer div {
+    text-align: center;
+    background-color: #e7e7e7;
+    width: 33%;
+    margin: 50px;
+    padding: 50px;
 }
 
 #TagLine {
     text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: #e7e7e7;
+}
+
+.MySkills {
+    background-color: #7a63ff;
 }
