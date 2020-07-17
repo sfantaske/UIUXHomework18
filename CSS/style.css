@@ -1,45 +1,49 @@
-.InlineBlock{
-    display: inline-block;
-    vertical-align: top;
-    background-color: gray;
+body {
+  margin: 0;
 }
-
-#Logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+header {
+  background-color: #373738;
+  padding: 15px;
 }
-
-nav {
-    width: 73%;
-    padding: 1%;
+header ul {
+  float: right;
+  color: white;
 }
-
-ul {
-    width: 50%;
-    margin-left: auto;
+header li {
+  display: inline-block;
+  padding: 0px 5px;
 }
-
-.HeroImage {
-    height: 600px;
-    padding: 25px;
+header p {
+  display: inline-block;
 }
-
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+}
 .content {
-    width: 500px;
-    margin: 0 auto;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center;
 }
-
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
 footer {
-    background-color: #373738;
-    text-align: center;
+  background-color: #373738;
+  padding: 5px;
+  color: white;
 }
-
-ul {
-    display: inline-block;
-    vertical-align: top;
+footer ul {
+  list-style: none;
+  padding-left: 5px;
 }
-
-li {
-
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
 }
