@@ -21,6 +21,8 @@ header p {
   padding: 100px 15px;
 }
 .content {
+    display: inline-block;
+
   max-width: 300px;
   margin: 0 auto;
   padding: 50px;
