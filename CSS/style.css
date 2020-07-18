@@ -79,15 +79,30 @@ a {
 }
 
 .WorkGrid {
-display: inline-grid;
-
+    display: inline-grid;
 }
 
 .GridItem {
-       text-align: center;
+    text-align: center;
     background-color: #e7e7e7;
-width: 33%;
+    width: 33%;
     margin: 50px;
     padding: 50px;
+}
+
+@media only screen and (max-width: 1000){
+    .FlexContainer div{
+       display: column;
+        flex-direction: column;
+        width: 100%;
+    }
+    .WorkGrid {
+        grid-template-rows: 300px 300px;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "GridItem"
+            "GridItem";
+    }
+
 }
 
